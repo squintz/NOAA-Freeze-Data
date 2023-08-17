@@ -3,7 +3,6 @@ param (
 	[double]$distance
 )
 
-#$address = "646 Mansfield Rd. Essex MD 21221"  # Replace with your desired address
 
 . ".\keys.ps1"
 . ".\scripts\geocode.ps1"
