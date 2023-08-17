@@ -7,6 +7,9 @@ The noaa-geo-data.ps1 scripts takes two parameters
 
 Address can be a full addreess or just a partial address such as a zip code or city and state.
 
+Distance is the radius in miles used to search for NOAA Stations. I say radius but it's really a square bounding box. If you prefer kilometers you can change that on
+[Line 18 in noaa-geo-data.ps1](https://github.com/squintz/NOAA-Freeze-Data/blob/main/noaa-geo-data.ps1?#L18) by changing "mi" to "km"
+
 ## Usage
 
 1. Check out this repository
